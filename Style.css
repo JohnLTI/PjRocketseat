@@ -7,3 +7,32 @@ body {
     /* Short hand(encurta as propriedades em uma só Tag CSS) */
     background: url(./assets/bg-mobile.jpg) no-repeat top center/cover;
 }
+
+body * {
+    font-family: 'Inter', sans-serif;
+    color: #ffffff;
+}
+
+#container {
+    border: 1px solid red;
+    width: 360px;
+    height: 712px;
+    margin: auto;
+}
+
+#profile {
+    text-align: center;
+}
+
+#profile img {
+    /* Em tags Inline como IMG, não é possível aplicar margin: auto. 
+    Por isso utilizamos display block, que obriga a linha ocupar o espaço todo da tela */
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+#profile p {
+    font-weight: 500;
+    line-height: 24px;
+}
